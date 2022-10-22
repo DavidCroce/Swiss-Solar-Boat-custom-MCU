@@ -9,7 +9,7 @@
         {
           "name": "Swiss Solar Boat Custom MCU Boards",
           "architecture": "samd",
-          "version": "SSB_MCU_0.0.1",
+          "version": "2.2.1",
           "category": "Contributed",
           "url": "https://github.com/JohnTomasTaylor/Swiss-Solar-Boat-custom-MCU/blob/main/SSB_MCU_0.0.1.zip?raw=true",
           "archiveFileName": "SSB_MCU_0.0.1.zip",
