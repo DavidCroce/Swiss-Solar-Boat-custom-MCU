@@ -11,8 +11,8 @@
           "architecture": "samd",
           "version": "2.2.1",
           "category": "Contributed",
-          "url": "https://github.com/JohnTomasTaylor/Swiss-Solar-Boat-custom-MCU/blob/main/SSB_MCU_0.0.1.zip?raw=true",
-          "archiveFileName": "SSB_MCU_0.0.1.zip",
+          "url": "https://github.com/JohnTomasTaylor/Swiss-Solar-Boat-custom-MCU/blob/main/customboard.zip?raw=true",
+          "archiveFileName": "customboard.zip",
           "checksum": "SHA-256:3bf49ba5a575f4f24d6ea817086862f16591707822ce607d1fcc398891df5469",
           "size": "7071006",
           "boards": [
