@@ -13,8 +13,8 @@
           "category": "Contributed",
           "url": "https://github.com/JohnTomasTaylor/Swiss-Solar-Boat-custom-MCU/blob/main/SSB_MCU_0.0.1.zip?raw=true",
           "archiveFileName": "SSB_MCU_0.0.1.zip",
-          "checksum": "SHA-256:4fddf62ac02f0b69ccc9ce1abbb48a4907fc0ca70dcedbdbe385ab42a9a39e5f",
-          "size": "7083844",
+          "checksum": "SHA-256:3bf49ba5a575f4f24d6ea817086862f16591707822ce607d1fcc398891df5469",
+          "size": "7071006",
           "boards": [
             {
               "name": "Custom MCU Swiss Solar Boat"
