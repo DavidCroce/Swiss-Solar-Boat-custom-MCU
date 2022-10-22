@@ -4,8 +4,6 @@
     {
       "name": "SSB Custom MCU",
       "maintainer": "Baptiste Savioz",
-      "websiteURL": "google.com",
-      "email" : "",
       "platforms":
       [
         {
