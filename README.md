@@ -23,6 +23,8 @@ If a packet is available, the function extracts the identifier, data length code
 
 ## Example
 <details>
+<summary>Show</summary>
+
 ```cpp
 CANSAME5x can;
 int dlc = can._parsePacket();
@@ -30,5 +32,6 @@ if (dlc > 0) {
   // Packet was successfully parsed
 } else {
   // No packet was available
-}```
+}
 </details>
+```
