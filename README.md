@@ -21,9 +21,8 @@ This function is a member function of the `CANSAME5x` class and is used to parse
 
 If a packet is available, the function extracts the identifier, data length code, and data payload of the message, and stores them in the corresponding member variables of the `CANSAME5x` object. The function also updates a hardware register to indicate that the message has been processed.
 
-## Example
 <details>
-<summary>Show</summary>
+<summary>##Example</summary>
 
 ```cpp
 CANSAME5x can;
