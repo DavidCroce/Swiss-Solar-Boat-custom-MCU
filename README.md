@@ -30,5 +30,5 @@ if (dlc > 0) {
   // Packet was successfully parsed
 } else {
   // No packet was available
-}
+}```
 </details>
