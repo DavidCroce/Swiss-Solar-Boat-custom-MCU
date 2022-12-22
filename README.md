@@ -33,5 +33,5 @@ if (dlc > 0) {
 } else {
   // No packet was available
 }
-</details>
 ```
+</details>
