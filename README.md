@@ -1,13 +1,14 @@
 # Swiss-Solar-Boat-custom-MCU
 
-
 # Programming the V2.2 Microcontroller
 
-1. [Setup](#setup)
-2. [Pin mapping](#pin-mapping)
-3. [Using the CAN bus](#using-the-can-bus)
-4. [Using the I2C interface](#using-the-i2c-interface)
-5. [Using the on-board SD card](#using-the-on-board-sd-card)
+| Section  | Description |
+|----------|-------------|
+| [Setup](#setup) | Instructions for setting up the V2.2 Microcontroller for programming. |
+| [Pin mapping](#pin-mapping) | Information about the pin mapping of the V2.2 Microcontroller. |
+| [Using the CAN bus](#using-the-can-bus) | Instructions for using the CAN bus on the V2.2 Microcontroller. |
+| [Using the I2C interface](#using-the-i2c-interface) | Instructions for using the I2C interface on the V2.2 Microcontroller. |
+| [Using the on-board SD card](#using-the-on-board-sd-card) | Instructions for using the on-board SD card on the V2.2 Microcontroller. |
 
 ### Setup
 
@@ -28,6 +29,7 @@ Instructions for using the I2C interface on the V2.2 Microcontroller.
 ### Using the on-board SD card
 
 Instructions for using the on-board SD card on the V2.2 Microcontroller.
+
 
 
 ---
