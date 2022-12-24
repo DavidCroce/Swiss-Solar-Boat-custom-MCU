@@ -2,7 +2,7 @@
 
 # Programming the V2.2 Microcontroller
 
-## Content
+### Content
 
 - [Setup](#setup)
 - [Pin mapping](#pin-mapping)
@@ -10,7 +10,7 @@
 - [Using the I2C interface](#using-the-i2c-interface)
 - [Using the on-board SD card](#using-the-on-board-sd-card)
 
-### Setup
+#### Setup
 
 Instructions for setting up the V2.2 Microcontroller for programming.
 
@@ -18,15 +18,15 @@ Instructions for setting up the V2.2 Microcontroller for programming.
 
 Information about the pin mapping of the V2.2 Microcontroller.
 
-### Using the CAN bus
+#### Using the CAN bus
 
 Instructions for using the CAN bus on the V2.2 Microcontroller.
 
-### Using the I2C interface
+#### Using the I2C interface
 
 Instructions for using the I2C interface on the V2.2 Microcontroller.
 
-### Using the on-board SD card
+#### Using the on-board SD card
 
 Instructions for using the on-board SD card on the V2.2 Microcontroller.
 
