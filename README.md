@@ -8,15 +8,16 @@ This function initializes the CAN functionality of the microcontroller and sets 
 ## Return value
 - Returns 1 if the initialization was successful, or 0 if it failed.
 
-<details>
+<detail>
 <summary><h3>Example</h3></summary>
-```cpp
-CANSAME5x can0;
+
+```CANSAME5x can0;
 
 if (can0.begin(500000)) {
   // CAN initialization successful
 } else {
   // CAN initialization failed
-}
-```
-</details>
+}```
+
+
+</detail>
