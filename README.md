@@ -2,6 +2,8 @@
 
 # Programming the V2.2 Microcontroller
 
+## Content
+
 - [Setup](#setup)
 - [Pin mapping](#pin-mapping)
 - [Using the CAN bus](#using-the-can-bus)
