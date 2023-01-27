@@ -96,7 +96,7 @@ The microcontroller v2.2 has multiple pins that can be used for different purpos
 
 ## Using the CAN module
 
-The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME5x. For more information you can browse its [documentation](CANSAME5x-Documentation).
+The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME5x. For more information you can browse its [documentation](CANSAME5x-Documentation.md).
 
 ### Examples
 #### Initializing the can module and sending data over the can bus
