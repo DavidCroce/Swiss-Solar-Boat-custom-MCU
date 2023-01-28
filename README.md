@@ -137,4 +137,4 @@ Instructions for using the on-board SD card on the V2.2 Microcontroller.
 
 ## Other Information
 
-If you need more information about how the package was made or about the same51, you might find it in the [miscellanious information](#Miscellanious-Information.md) page
+If you need more information about how the package was made or about the same51, you might find it in the [miscellanious information](Miscellanious-Information.md) page
