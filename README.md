@@ -7,6 +7,8 @@
 - [Using the CAN module](#using-the-can-module)
 - [Using the I2C interface](#using-the-i2c-interface)
 - [Using the on-board SD card](#using-the-on-board-sd-card)
+- [Other Information](#other-information)
+
 ## Setup
 
 1. **Install** Arduino IDE on your device
@@ -96,7 +98,7 @@ The microcontroller v2.2 has multiple pins that can be used for different purpos
 
 ## Using the CAN module
 
-The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME5x. For more information you can browse its [documentation](CANSAME5x-Documentation.md).
+The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME5x. For more information you can browse its [documentation]().
 
 ### Examples
 #### Initializing the can module and sending data over the can bus
@@ -132,3 +134,7 @@ The microcontroller is equipped with two I2C buses, to use them you have to impo
 ## Using the on-board SD card
 
 Instructions for using the on-board SD card on the V2.2 Microcontroller.
+
+## Other Information
+
+If you need more information about how the package was made or about the same51, you might find it in the [miscellanious information](#miscellanious-information) page
