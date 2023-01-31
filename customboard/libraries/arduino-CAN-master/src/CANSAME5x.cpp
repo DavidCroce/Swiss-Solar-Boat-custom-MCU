@@ -2,7 +2,6 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full
 // license information.
 
-#if defined(ADAFRUIT_FEATHER_M4_CAN)
 #include <stdint.h>
 #include <stdlib.h>
 #include "CANSAME5x.h"
@@ -601,6 +600,5 @@ extern "C" __attribute__((externally_visible)) void CAN1_Handler() {
 
 CANSAME5x *CANSAME5x::instances[2];
 
-CANSAME5x CAN;
-
-#endif
+CANSAME5x can0;
+CANSAME5x can1(PIN_CAN1_TX, PIN_CAN1_RX);
