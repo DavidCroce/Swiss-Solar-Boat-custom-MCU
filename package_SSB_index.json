@@ -3,7 +3,7 @@
   [
     {
       "name": "SSB Custom MCU",
-      "maintainer": "Baptiste Savioz",
+      "maintainer": "John Taylor",
       "platforms":
       [
         {
