@@ -7,17 +7,17 @@
       "platforms":
       [
         {
-          "name": "Swiss Solar Boat Custom MCU Boards",
+          "name": "Swiss Solar Boat Custom MCUs",
           "architecture": "samd",
           "version": "2.2.1",
           "category": "Contributed",
           "url": "https://github.com/JohnTomasTaylor/Swiss-Solar-Boat-custom-MCU/blob/main/customboard.zip?raw=true",
           "archiveFileName": "customboard.zip",
-          "checksum": "SHA-256:79f6cc6b9945dfe7934d6cb0ba39ff9258c74af4287cfb94968229173e4ecd30",
-          "size": "1749608",
+          "checksum": "SHA-256:b08c285e4a165312cbd1f3c9dbda4bb99970633b4beb8772a8ca0a7f65d9b30b",
+          "size": "1780000",
           "boards": [
             {
-              "name": "Custom MCU Swiss Solar Boat"
+              "name": "SSB Custom MCU"
             }
           ],
           "toolsDependencies":
