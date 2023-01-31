@@ -52,4 +52,6 @@ private:
   friend void CAN1_Handler(void);
 };
 
-extern CANSAME5x CAN;
+extern CANSAME5x can0;
+extern CANSAME5x can1;
+
