@@ -110,7 +110,7 @@ The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME
 
 ```cpp
 #include <Arduino.h>
-#include <CANSAME5x>
+#include <CAN.h>
 
 
 void setup()
