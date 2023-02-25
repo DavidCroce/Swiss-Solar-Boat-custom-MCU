@@ -1,3 +1,5 @@
+# **Disclaimer!!!** this document is a WIP so the example code and function descriptions might be incomplete or plain wrong!
+
 # `Index`
 
 - [`int CANSAME5x::begin(long baudrate)`](#int-cansame5xbeginlong-baudrate)
