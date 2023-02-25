@@ -18,7 +18,12 @@ https://raw.githubusercontent.com/JohnTomasTaylor/Swiss-Solar-Boat-custom-MCU/ma
 ```
 3. Go into **Board Manager** (should be under Tools -> Boards -> Board Manager) and install the **Swiss Solar Boat Custom MCU Boards** Package
 4. **Install** the platformio extension for VSCode 
-5. You should now be able to choose the SSB custom board in your projects, either by choosing it when creating a new project or by going into the **platformio.ini** file and changing the board field to **SSB Custom MCU**
+5. To use the package with platformio, you will need to change the following fields in the **platformio.ini** file:
+```
+platform = https://github.com/JohnTomasTaylor/pio-ssb-plateform.git
+board = ssb_custom_mcu
+platform_packages = framework-arduino-samd-adafruit @ https://github.com/JohnTomasTaylor/framework-arduino-samd-ssb.git
+```
 
 ## Pin mapping
 
@@ -98,7 +103,7 @@ The microcontroller v2.2 has multiple pins that can be used for different purpos
 
 ## Using the CAN module
 
-The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME5x. For more information you can browse its [documentation](CANSAME5x-Documentation.md).
+The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME5x. For more information you can browse its [documentation](CANSAME5x-Documentation.md). Like most arduino libraries, each can controller is represented by a class instance that is globally accessible. For CAN0 the instance is **can0**, and for CAN1 it is **can1**.
 
 ### Examples
 #### Initializing the can module and sending data over the can bus
@@ -107,14 +112,12 @@ The arduino package for the microcontroller 2.2 uses a CAN library named CANSAME
 #include <Arduino.h>
 #include <CANSAME5x>
 
-CANSAME5x can0 = CANSAME5x(PIN_CAN0_TX, PIN_CAN0_RX);
-// for can1:
-// CANSAME5x can1 = CANSAME5x(PIN_CAN1_TX, PIN_CAN1_RX);
 
 void setup()
 {
     //initialize can module with a baudrate of 10000
-    can0.begin(10000)
+    can0.begin(10000);
+    // can1.begin(10000);
 }
 
 void loop() {
