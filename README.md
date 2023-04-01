@@ -11,18 +11,22 @@
 
 ## Setup
 
+### Arduino IDE
 1. **Install** Arduino IDE on your device
 2. Go into Arduino IDE's **Settings** and in the **Additional boards manager URLs** field, add the following url:
 ```
 https://raw.githubusercontent.com/JohnTomasTaylor/Swiss-Solar-Boat-custom-MCU/main/package_SSB_index.json
 ```
 3. Go into **Board Manager** (should be under Tools -> Boards -> Board Manager) and install the **Swiss Solar Boat Custom MCU Boards** Package
-4. **Install** the platformio extension for VSCode 
-5. To use the package with platformio, you will need to change the following fields in the **platformio.ini** file:
+### Platformio
+1. **Install** the platformio extension for VSCode 
+2. To use the package with platformio, you will need to change the following fields in the **platformio.ini** file:
 ```
+[env:SSB MCU v2.2]
 platform = https://github.com/JohnTomasTaylor/pio-ssb-plateform.git
 board = ssb_custom_mcu
 platform_packages = framework-arduino-samd-adafruit @ https://github.com/JohnTomasTaylor/framework-arduino-samd-ssb.git
+framework = arduino
 ```
 
 ## Pin mapping
