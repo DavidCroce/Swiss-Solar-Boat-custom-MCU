@@ -28,6 +28,13 @@ board = ssb_custom_mcu
 platform_packages = framework-arduino-samd-adafruit @ https://github.com/JohnTomasTaylor/framework-arduino-samd-ssb.git
 framework = arduino
 ```
+### Updating the package for platformio
+For now updates are not automaticly installed so you'll need to do the following:
+- **On Windows:** Navigate to "\Users\your_username\\.platformio" 
+- **On Mac**: Navigate to "~/.platformio/"
+
+Find the folders named **platforms** and **packages**. In platforms you'll have to delete any folders named **atmelsam**. In packages delete all folders with the name **framework-arduino-samd-adafruits** (you might have one with @something at the end of its name). 
+Now when you build your project in VSCode, platformio will download the new version of the package.
 
 ## Pin mapping
 
