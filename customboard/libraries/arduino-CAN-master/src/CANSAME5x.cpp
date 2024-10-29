@@ -529,8 +529,8 @@ int CANSAME5x::loopback() {
   }
   hw->CCCR.bit.CCE = 1;
 
-  hw->CCCR.bit.TEST = 1;
-  hw->TEST.bit.LBCK = 1;
+  //hw->CCCR.bit.TEST = 1;
+  //hw->TEST.bit.LBCK = 1;
 
   hw->CCCR.bit.CCE = 0;
   hw->CCCR.bit.INIT = 0;
